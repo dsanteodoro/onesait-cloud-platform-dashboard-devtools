@@ -68,7 +68,8 @@ function walkAndSet(dir) {
     });
 }
 
-walkAndSet("src/Visualize OpenFlights Data");
+//change for a valid dashboard carpet 
+//walkAndSet("src/Visualize OpenFlights Data");
 
 writeFileSync(
     path.join("src","index.js"),
